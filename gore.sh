@@ -42,7 +42,7 @@ chaos(){
       echo "================================"
 }
 mulai(){
-      echo "Gunakan Chaos Angel Project lagi?"
+      echo "Gunakan Chaos Gore Project lagi?"
       echo "y/n?"
       read lagi
       if [ $lagi = "y" ];then
