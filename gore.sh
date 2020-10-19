@@ -50,7 +50,7 @@ mulai(){
           chaos
           start_chaos_angel
       else
-          echo "Terimakasih sudah menggunakan Chaos Angel Project"
+          echo "Terimakasih sudah menggunakan Chaos Gore Project"
           exit
       fi
 }
