@@ -1,15 +1,4 @@
 #!/bin/bash
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
 #PERINGATAN : KESALAHAN ATAU KEJAHATAN ADALAH TANGGUNG JAWAB DARI PEMAKAI
 #GUNAKAN TOOLS UNTUK KEBAIKAN JANGAN DISALAH GUNAKAN :)
 chaos(){
@@ -49,10 +38,9 @@ chaos(){
       sleep 0.03
       echo "                '\_-, "
       echo "================================"
-      echo "      Chaos Angel Project"
+      echo "      Chaos Gore Project"
       echo "================================"
 }
-get_chaos_angel="http://zlucifer.com/api/hackbae.php?request=chaos"
 mulai(){
       echo "Gunakan Chaos Angel Project lagi?"
       echo "y/n?"
@@ -66,10 +54,10 @@ mulai(){
           exit
       fi
 }
-start_chaos_angel(){
+start_chaos_Gore(){
       echo "[1] Buat File"
       echo "[2] Cek Hasil"
-      echo "[3] Close Chaos Angel Project"
+      echo "[3] Close Chaos Gore Project"
       echo "1/2/3?"
       read request
       if [ $request = "1" ]; then
@@ -84,7 +72,7 @@ start_chaos_angel(){
               load
               clear
               chaos
-              build=`curl -s $get_chaos_angel/build.php?create=$create"&email="$email`
+              build=`curl -s $get_chaos_Gore/build.php?create=$create"&email="$email`
               echo -e $build
           else
               echo "Kesalahan"
@@ -110,7 +98,7 @@ start_chaos_angel(){
           fi
           mulai
       elif [ $request = "3" ];then
-          echo "Terimakasih sudah menggunakan Chaos Angel Project"
+          echo "Terimakasih sudah menggunakan Chaos Gore Project"
           exit
       else
           echo "Kesalahan"
@@ -146,13 +134,13 @@ if [ $lanjutkan = "y" ];then
     read nick #membaca yang ditulis
     clear
     chaos
-    echo "Chaos Angel adalah tools untuk"
+    echo "Chaos Gore adalah tools untuk"
     echo "peretasan google account via"
     echo "Google Drive"
     echo
     echo Selamat datang $nick ":)"
     echo
-    start_chaos_angel
+    start_chaos_Gore
 else
     echo "Powered by rexxagore"
 fi
